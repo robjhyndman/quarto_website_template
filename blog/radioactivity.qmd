@@ -1,0 +1,11 @@
+---
+date: "1902-09-07"
+title: "My xray experiments"
+categories:
+  - physics
+  - chemistry
+  - radiation
+image: mc_image.jpg
+---
+
+I've been playing with uranium rays ...

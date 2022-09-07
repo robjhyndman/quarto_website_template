@@ -1,0 +1,20 @@
+---
+about:
+  template: trestles
+  image: mariecurie.png
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/mariecurie
+    - icon: github
+      text: github
+      href: https://github.com/mariecurie
+    - icon: envelope
+      text: mail
+      href: mailto:Marie.Curie@ens.fr
+---
+
+**Professor Marie Skłodowska-Curie**<br>
+School of Physics & Chemistry<br>
+École Normale Supérieure<br>
+Paris, France

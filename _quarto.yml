@@ -1,0 +1,43 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "*.md"
+
+website:
+  title: "Marie Curie"
+  site-url: "https://mariecurie.com"
+  navbar:
+    background: "#536878"
+    left:
+      - href: blog/index.qmd
+        text: Blog
+      - href: publications/index.qmd
+        text: Publications
+      - href: software/index.qmd
+        text: Software
+      - href: talks/index.qmd
+        text: Talks
+      - href: teaching/index.qmd
+        text: Teaching
+      - href: about/index.qmd
+        text: About
+  page-footer:
+    left: "Copyright 2022, Marie Curie"
+    right:
+      - icon: github
+        href: https://github.com/mariecurie
+      - icon: twitter
+        href: https://twitter.com/mariecurie
+    background: "#536878"
+
+date-format: "D MMMM YYYY"
+
+format:
+  html:
+    theme: tango
+    css: styles.css
+    toc: true
+    html-math-method: katex
+    include-in-header:
+      file: header.html

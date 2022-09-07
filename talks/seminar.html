@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="$lang$" xml:lang="$lang$"$if(dir)$ dir="$dir$"$endif$>
+
+<head>
+
+$metadata.html()$
+
+<style>
+$styles.html()$
+</style>
+
+<!-- htmldependencies:E3FAD763 -->
+$for(header-includes)$
+$header-includes$
+$endfor$
+
+$if(math)$
+  $math$
+$endif$
+
+$for(css)$
+<link rel="stylesheet" href="$css$" />
+$endfor$
+</head>
+
+<body>
+
+$for(include-before)$
+$include-before$
+$endfor$
+
+$if(title)$
+$title-block.html()$
+$endif$
+
+$if(toc)$
+$toc.html()$
+$endif$
+
+$if(youtube)$
+<div class="embed video-player" style="padding-bottom: 4ex;">
+  <iframe class="youtube-player" type="text/html" src="https://www.youtube.com/embed/$youtube$" allowfullscreen frameborder="0">
+  </iframe>
+</div>
+$endif$
+
+$if(link)$
+<a href="$link$" class="badge badge-small badge-red"><i class="fa fa-file-pdf-o"></i>&nbsp;Download pdf</a><br>
+<iframe src="https://docs.google.com/gview?url=$link$&embedded=true" style="width:600px; height:500px;" frameborder="0"></iframe><br>
+$endif$
+
+$body$
+
+$for(include-after)$
+$include-after$
+$endfor$
+
+
+</body>
+
+</html>
