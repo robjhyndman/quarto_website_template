@@ -1,5 +1,4 @@
 ---
-title: "Publications"
 listing:
   contents: .
   template: pubs.ejs
@@ -13,3 +12,5 @@ sidebar: false
 page-layout: full
 title-block-banner: false
 ---
+
+# Publications

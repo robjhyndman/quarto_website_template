@@ -1,19 +1,22 @@
 ---
-title: "Talks I've given"
 listing:
   contents: .
   sort: "date desc"
   categories: false
   sort-ui: true
-  filter-ui: false
+  filter-ui: [date, title, venue]
   date-format: "DD MMM YYYY"
   type: table
   page-size: 999
   fields:
     - date
     - title
+    - venue
+  field-display-names:
+      venue: Venue
 
-sidebar: false
 page-layout: full
 title-block-banner: false
 ---
+
+# Talks I've given

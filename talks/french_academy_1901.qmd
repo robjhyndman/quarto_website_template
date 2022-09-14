@@ -1,11 +1,15 @@
 ---
 date: 1901-06-30
 title: Adventures with Uranium Rays
+venue: French Academy, Paris
 youtube: chdlkduWz
 ---
 
-Talk given to the French Academy.
+Abstract here
+
 
 # Slides
 
 embed html or pdf slides here
+
+# Video
